@@ -1,0 +1,7 @@
+name: EnchantmentsMC
+version: 1.0
+author: Sled
+main: dev.sled.Enchant.Main
+description: Enchantments plugin! Tools and armor updated enchants!
+prefix: Guild
+load: STARTUP  
