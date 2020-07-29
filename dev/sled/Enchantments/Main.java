@@ -1,3 +1,5 @@
+package dev.sled.Enchantments;
+
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -28,7 +30,8 @@ public class Main extends JavaPlugin {
 	 */
 	public void initial_load()
 	{
-		
+		//register the events with this plugin
+		getServer().getPluginManager().registerEvents(new Events(), this);
 	}
 	
 	/**

@@ -1,7 +1,12 @@
 name: EnchantmentsMC
 version: 1.0
 author: Sled
-main: dev.sled.Enchant.Main
+main: dev.sled.Enchantments.Main
 description: Enchantments plugin! Tools and armor updated enchants!
 prefix: Guild
 load: STARTUP  
+
+commands:
+  enchant_test:
+    description: Tests if the enchant plsugin works
+    usage: No arguments! Only '/enchant_test'!
